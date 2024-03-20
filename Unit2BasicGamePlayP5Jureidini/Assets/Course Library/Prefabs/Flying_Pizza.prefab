@@ -11,7 +11,8 @@ GameObject:
   - component: {fileID: 7789663981273253047}
   - component: {fileID: 5322873103747508351}
   - component: {fileID: 7704808253522480286}
-  - component: {fileID: 6481204873138396207}
+  - component: {fileID: 4002084530736723295}
+  - component: {fileID: 1606335895505980791}
   m_Layer: 0
   m_Name: Flying_Pizza
   m_TagString: Untagged
@@ -84,7 +85,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &6481204873138396207
+--- !u!114 &4002084530736723295
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -96,4 +97,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f5163165e337794597304c6d2289eff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
+  speed: 40
+--- !u!114 &1606335895505980791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9049417713695104760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d31a49ce2812b624b886b2b4bc423dc9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
